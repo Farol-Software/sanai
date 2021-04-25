@@ -1,15 +1,13 @@
-import { NextPage } from 'next'
 import Head from 'next/head'
+import PageHero from '../components/PageHero'
 
-const Home: NextPage = () => {
+export default function Home(): JSX.Element {
   return (
     <div>
       <Head>
-        <title>Sanai Portas</title>
+        <title>Sanai Portas | Principal</title>
       </Head>
-      <h1>Sanai Portas</h1>
+      <PageHero />
     </div>
   )
 }
-
-export default Home
