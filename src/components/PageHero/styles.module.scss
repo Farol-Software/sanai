@@ -54,5 +54,14 @@
         color: var(--orange);
       }
     }
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+
+      div + div {
+        padding-left: 0rem;
+        padding-top: 2rem;
+      }
+    }
   }
 }
