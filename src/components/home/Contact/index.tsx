@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
       const data = new FormData(form.current)
       const message = {
         ...Object.fromEntries(data),
-        accessKey: 'a246dc7d-dfe7-44af-8bce-6770c13d4493',
+        accessKey: 'a362d62e-17c4-41c6-bed0-fc9767529a07',
       }
 
       const res = await fetch('https://api.staticforms.xyz/submit', {
