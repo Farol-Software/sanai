@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import { PageHero, About, Numbers, Why } from '../components/home'
+import { PageHero, About, Numbers, Why, Contact } from '../components/home'
 
 export default function Home(): JSX.Element {
   return (
-    <div>
+    <>
       <Head>
         <title>Sanai Portas | Principal</title>
       </Head>
@@ -11,6 +11,7 @@ export default function Home(): JSX.Element {
       <About />
       <Numbers />
       <Why />
-    </div>
+      <Contact />
+    </>
   )
 }
