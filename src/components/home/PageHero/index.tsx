@@ -1,5 +1,5 @@
 import { FiDollarSign, FiSmile, FiClock } from 'react-icons/fi'
-import Hero from '../shared/Hero'
+import Hero from '../../shared/Hero'
 import styles from './styles.module.scss'
 
 const PageHero: React.FC = () => {
