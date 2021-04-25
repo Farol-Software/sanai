@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import { FiTrendingUp, FiUserPlus, FiThumbsUp } from 'react-icons/fi'
 import Hero from '../../shared/Hero'
 import styles from './styles.module.scss'
