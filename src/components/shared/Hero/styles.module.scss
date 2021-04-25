@@ -1,6 +1,5 @@
 .hero {
   width: 100%;
-  height: calc(100vh - 7.3rem);
   position: relative;
 
   > div {
@@ -20,14 +19,10 @@
       opacity: 0.85;
     }
 
-    div {
+    > div {
       position: relative;
       height: 100%;
       width: 100%;
     }
-  }
-
-  @media only screen and (max-width: 768px) {
-    height: 100%;
   }
 }
