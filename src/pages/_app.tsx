@@ -3,6 +3,7 @@
 import { AppProps } from 'next/app'
 
 import Header from '../components/shared/Header'
+import Footer from '../components/shared/Footer'
 
 import '../styles/globals.scss'
 
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     <>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }

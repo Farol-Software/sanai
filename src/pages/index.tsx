@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { PageHero, About, Numbers } from '../components/home'
+import { PageHero, About, Numbers, Why } from '../components/home'
 
 export default function Home(): JSX.Element {
   return (
@@ -10,6 +10,7 @@ export default function Home(): JSX.Element {
       <PageHero />
       <About />
       <Numbers />
+      <Why />
     </div>
   )
 }
