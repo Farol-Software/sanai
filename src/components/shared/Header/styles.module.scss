@@ -83,6 +83,21 @@
   }
 }
 
+.mobileContact {
+  display: none;
+
+
+  img {
+    width: 55px;
+    height: 55px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .hamburger {
   all: unset;
   display: none;
